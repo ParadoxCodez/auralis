@@ -1,0 +1,38 @@
+{
+  "name": "particle-x",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@mediapipe/tasks-vision": "^0.10.22-rc.20250304",
+    "@react-three/drei": "^9.121.3",
+    "@react-three/fiber": "^8.17.14",
+    "@react-three/postprocessing": "^2.16.2",
+    "framer-motion": "^10.16.4",
+    "gsap": "^3.14.2",
+    "lenis": "^1.3.16",
+    "lucide-react": "^0.471.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.11.0",
+    "three": "^0.160.0",
+    "three-stdlib": "^2.36.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.8"
+  },
+  "overrides": {
+    "three": "$three"
+  }
+}
